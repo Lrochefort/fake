@@ -62,7 +62,7 @@
         },
         "user": {
           "greeting": "Bienvenue {username}&nbsp;!",
-          "logout": "Déconnexion"
+          "logout": "(Déconnexion)"
         }
       }
     },
@@ -96,7 +96,7 @@
         },
         "user": {
           "greeting": "Welcome {username}&nbsp;!",
-          "logout": "Sign out"
+          "logout": "(Sign out)"
         }
       }
     }
