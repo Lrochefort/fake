@@ -41,6 +41,9 @@
           "home" : {
             "title" : "Accueil",
             "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
+          },
+          "about" : {
+            "title" : "À propos"
           }
         },
         "en": {
@@ -51,6 +54,9 @@
           "home" : {
             "title" : "Home",
             "greeting" : "<b>Welcome</b><br />to the Geoloc demo!"
+          },
+          "about" : {
+            "title" : "About"
           }
         }
     }
