@@ -37,13 +37,21 @@
           "title" : "Titre",
           "description" : "Description en français",
           "roger" : "Roger français",
-          "bob" : "Robert"
+          "bob" : "Robert",
+          "home" : {
+            "title" : "Accueil",
+            "greeting" : "<b>Bienvebue</b><br />à la démo de GeoLoc!"
+          }
         },
         "en": {
           "i18nError" : "<span class='i18nError'>Translation key not found: {key} - {locale}</span>",
           "title" : "Title",
           "description" : "English description",
-          "roger" : "English Roger"
+          "roger" : "English Roger",
+          "home" : {
+            "title" : "Home",
+            "greeting" : "<b>Welcome</b><br />to the Geoloc demo!"
+          }
         }
     }
   }
