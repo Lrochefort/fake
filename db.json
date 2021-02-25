@@ -1,105 +1,104 @@
 {
-    "events": [
-      {
-        "id": 123,
-        "category": "animal BS",
-        "title": "Cat Adoption Day edited",
-        "description": "Find your new feline friend at this event.",
-        "location": "Meow Town",
-        "date": "January 28, 2022",
-        "time": "12:00",
-        "organizer": "luc"
-      },
-      {
-        "id": 456,
-        "category": "food",
-        "title": "Community Gardening",
-        "description": "Join us as we tend to the community edible plants.",
-        "location": "Flora City",
-        "date": "March 14, 2022",
-        "time": "10:00",
-        "organizer": "Fern Pollin"
-      },
-      {
-        "id": 789,
-        "category": "sustainability",
-        "title": "Beach Cleanup",
-        "description": "Help pick up trash along the shore.",
-        "location": "Playa Del Carmen",
-        "date": "July 22, 2022",
-        "time": "11:00",
-        "organizer": "Carey Wales"
-      }
-    ],
-    "locales": {
-        "fr": {
-          "i18nError" : "<span class='i18nError'>Clé de traduction introuvable: {key} - {locale}</span>",
-          "title" : "Titre",
-          "description" : "Description en français",
-          "roger" : "Roger français",
-          "bob" : "Robert",
-          "nav" : {
-               "home" : {
-                "title" : "Accueil",
-                "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
-              },
-              "about" : {
-                "title" : "À propos"
-              },
-              "info" : {
-                "title" : "Info aéroport"
-              },
-              "distance" : {
-                "title" : "Distance aéroport"
-              },
-              "nearest" : {
-                "title" : "Aéroport proche"
-              },
-              "list" : {
-                "title" : "Liste aéroports"
-              },
-              "secure" : {
-                "title" : "Zone restreinte"
-              },
-              "user" : {
-                "greeting" : "Bienvenue {username}&nbsp;!",
-                "logout" : "Déconnexion"
-              }
-          }
+  "events": [{
+      "id": 123,
+      "category": "animal BS",
+      "title": "Cat Adoption Day edited",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "organizer": "luc"
+    },
+    {
+      "id": 456,
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": 789,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "organizer": "Carey Wales"
+    }
+  ],
+  "locales": {
+    "fr": {
+      "i18nError": "<span class='i18nError'>Clé de traduction introuvable: {key} - {locale}</span>",
+      "title": "Titre",
+      "description": "Description en français",
+      "roger": "Roger français",
+      "bob": "Robert",
+      "nav": {
+        "home": {
+          "title": "Accueil",
+          "greeting": "<b>Bienvenue</b><br />à la démo de GeoLoc!"
         },
-        "en": {
-          "i18nError" : "<span class='i18nError'>Translation key not found: {key} - {locale}</span>",
-          "title" : "Title",
-          "description" : "English description",
-          "roger" : "English Roger",
-          "nav" : {
-              "home" : {
-                "title" : "Home",
-                "greeting" : "<b>Welcome</b><br />to the Geoloc demo!"
-              },
-              "about" : {
-                "title" : "About"
-              },
-              "info" : {
-                "title" : "Airport info"
-              },
-              "distance" : {
-                "title" : "Airport distance"
-              },
-              "nearest" : {
-                "title" : "Nearest airport"
-              },
-              "list" : {
-                "title" : "Airports list"
-              },
-              "secure" : {
-                "title" : "Secured area"
-              },
-              "user" : {
-                "greeting" : "Welcome {username}&nbsp;!",
-                "logout" : "Sign out"
-              }
-          }
+        "about": {
+          "title": "À propos"
+        },
+        "info": {
+          "title": "Info aéroport"
+        },
+        "distance": {
+          "title": "Distance aéroport"
+        },
+        "nearest": {
+          "title": "Aéroport proche"
+        },
+        "list": {
+          "title": "Liste aéroports"
+        },
+        "secure": {
+          "title": "Zone restreinte"
+        },
+        "user": {
+          "greeting": "Bienvenue {username}&nbsp;!",
+          "logout": "Déconnexion"
         }
+      }
+    },
+    "en": {
+      "i18nError": "<span class='i18nError'>Translation key not found: {key} - {locale}</span>",
+      "title": "Title",
+      "description": "English description",
+      "roger": "English Roger",
+      "nav": {
+        "home": {
+          "title": "Home",
+          "greeting": "<b>Welcome</b><br />to the Geoloc demo!"
+        },
+        "about": {
+          "title": "About"
+        },
+        "info": {
+          "title": "Airport info"
+        },
+        "distance": {
+          "title": "Airport distance"
+        },
+        "nearest": {
+          "title": "Nearest airport"
+        },
+        "list": {
+          "title": "Airports list"
+        },
+        "secure": {
+          "title": "Secured area"
+        },
+        "user": {
+          "greeting": "Welcome {username}&nbsp;!",
+          "logout": "Sign out"
+        }
+      }
     }
   }
+}
