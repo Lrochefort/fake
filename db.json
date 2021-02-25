@@ -38,11 +38,11 @@
           "description" : "Description en français",
           "roger" : "Roger français",
           "bob" : "Robert",
-          "home" : {
-            "title" : "Accueil",
-            "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
-          },
           "nav" : {
+               "home" : {
+                "title" : "Accueil",
+                "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
+              },
               "about" : {
                 "title" : "À propos"
               },
