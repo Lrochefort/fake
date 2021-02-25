@@ -42,23 +42,29 @@
             "title" : "Accueil",
             "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
           },
-          "about" : {
-            "title" : "À propos"
-          },
-          "info" : {
-            "title" : "Info aéroport"
-          },
-          "distance" : {
-            "title" : "Distance aéroport"
-          },
-          "nearest" : {
-            "title" : "Aéroport proche"
-          },
-          "list" : {
-            "title" : "Liste aéroports"
-          },
-          "secure" : {
-            "title" : "Zone restreinte"
+          "nav" : {
+              "about" : {
+                "title" : "À propos"
+              },
+              "info" : {
+                "title" : "Info aéroport"
+              },
+              "distance" : {
+                "title" : "Distance aéroport"
+              },
+              "nearest" : {
+                "title" : "Aéroport proche"
+              },
+              "list" : {
+                "title" : "Liste aéroports"
+              },
+              "secure" : {
+                "title" : "Zone restreinte"
+              },
+              "user" : {
+                "greeting" : "Bienvenue {username}&nbsp;!",
+                "logout" : "Déconnexion"
+              }
           }
         },
         "en": {
@@ -66,27 +72,33 @@
           "title" : "Title",
           "description" : "English description",
           "roger" : "English Roger",
-          "home" : {
-            "title" : "Home",
-            "greeting" : "<b>Welcome</b><br />to the Geoloc demo!"
-          },
-          "about" : {
-            "title" : "About"
-          },
-          "info" : {
-            "title" : "Airport info"
-          },
-          "distance" : {
-            "title" : "Airport distance"
-          },
-          "nearest" : {
-            "title" : "Nearest airport"
-          },
-          "list" : {
-            "title" : "Airports list"
-          },
-          "secure" : {
-            "title" : "Secured area"
+          "nav" : {
+              "home" : {
+                "title" : "Home",
+                "greeting" : "<b>Welcome</b><br />to the Geoloc demo!"
+              },
+              "about" : {
+                "title" : "About"
+              },
+              "info" : {
+                "title" : "Airport info"
+              },
+              "distance" : {
+                "title" : "Airport distance"
+              },
+              "nearest" : {
+                "title" : "Nearest airport"
+              },
+              "list" : {
+                "title" : "Airports list"
+              },
+              "secure" : {
+                "title" : "Secured area"
+              },
+              "user" : {
+                "greeting" : "Welcome {username}&nbsp;!",
+                "logout" : "Sign out"
+              }
           }
         }
     }
