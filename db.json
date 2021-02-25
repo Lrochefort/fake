@@ -34,11 +34,13 @@
     "locales": {
         "fr": {
           "title" : "Titre",
-          "description" : "Description en français"
+          "description" : "Description en français",
+          "roger" : "Roger français" 
         },
         "en": {
           "title" : "Title",
-          "description" : "English description"
+          "description" : "English description",
+          "roger" : "English Roger"
         }
     }
   }
