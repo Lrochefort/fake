@@ -36,7 +36,8 @@
           "i18nError" : "<span class='i18nError'>Clé de traduction introuvable: </span>",
           "title" : "Titre",
           "description" : "Description en français",
-          "roger" : "Roger français" 
+          "roger" : "Roger français",
+          "bob" : "Robert"
         },
         "en": {
           "i18nError" : "<span class='i18nError'>Translation key not found: </span>",
