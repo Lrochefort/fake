@@ -33,14 +33,14 @@
     ],
     "locales": {
         "fr": {
-          "i18nError" : "<span class='i18nError'>Clé de traduction introuvable: </span>",
+          "i18nError" : "<span class='i18nError'>Clé de traduction introuvable: {key} - {locale}</span>",
           "title" : "Titre",
           "description" : "Description en français",
           "roger" : "Roger français",
           "bob" : "Robert"
         },
         "en": {
-          "i18nError" : "<span class='i18nError'>Translation key not found: </span>",
+          "i18nError" : "<span class='i18nError'>Translation key not found: {key} - {locale}</span>",
           "title" : "Title",
           "description" : "English description",
           "roger" : "English Roger"
