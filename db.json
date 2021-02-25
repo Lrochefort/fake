@@ -40,7 +40,7 @@
           "bob" : "Robert",
           "home" : {
             "title" : "Accueil",
-            "greeting" : "<b>Bienvebue</b><br />à la démo de GeoLoc!"
+            "greeting" : "<b>Bienvenue</b><br />à la démo de GeoLoc!"
           }
         },
         "en": {
