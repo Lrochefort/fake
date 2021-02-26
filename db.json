@@ -39,6 +39,7 @@
       "bob": "Robert",
       "nav": {
         "lang" : {
+          "title" : "Switch to English",
           "alt" : "English"
         },
         "home": {
@@ -76,6 +77,7 @@
       "roger": "English Roger",
       "nav": {
         "lang" : {
+          "title" : "Changer en français",
           "alt" : "Français"
         },
         "home": {
