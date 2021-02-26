@@ -38,6 +38,9 @@
       "roger": "Roger français",
       "bob": "Robert",
       "nav": {
+        "lang" : {
+          "alt" : "English"
+        },
         "home": {
           "title": "Accueil",
           "greeting": "<b>Bienvenue</b><br />à la démo de GeoLoc!"
@@ -72,6 +75,9 @@
       "description": "English description",
       "roger": "English Roger",
       "nav": {
+        "lang" : {
+          "alt" : "Français"
+        },
         "home": {
           "title": "Home",
           "greeting": "<b>Welcome</b><br />to the Geoloc demo!"
