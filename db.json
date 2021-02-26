@@ -33,33 +33,28 @@
   "locales": {
     "fr": {
       "i18nError": "<span class='i18nError'>Clé de traduction introuvable: {key} - {locale}</span>",
-      "title": "Titre",
-      "description": "Description en français",
-      "roger": "Roger français",
-      "bob": "Robert",
       "nav": {
-        "lang" : {
-          "title" : "Switch to English",
-          "alt" : "English"
-        },
-        "home": {
-          "title": "Accueil",
-          "greeting": "<b>Bienvenue</b><br />à la démo de GeoLoc!"
-        },
         "about": {
           "title": "À propos"
-        },
-        "info": {
-          "title": "Info aéroport"
         },
         "distance": {
           "title": "Distance aéroport"
         },
-        "nearest": {
-          "title": "Aéroport proche"
+        "home": {
+          "title": "Accueil"
+        },
+        "info": {
+          "title": "Info aéroport"
+        },
+        "lang": {
+          "alt": "English",
+          "title": "Switch to English"
         },
         "list": {
           "title": "Liste aéroports"
+        },
+        "nearest": {
+          "title": "Aéroport proche"
         },
         "secure": {
           "title": "Zone restreinte"
@@ -68,36 +63,94 @@
           "greeting": "Bienvenue {username}&nbsp;!",
           "logout": "(Déconnexion)"
         }
+      },
+      "pages": {
+        "about": {
+          "mainContent": "<p>Bacon jalapeno épicé ipsum dolor amet ribeye est lorem, pariatur veniam pork culpa tri-tip magna. Velit dolor kielbasa est chuck. Entrecôte de dinde sunt langue bacon ullamco en faux-filet enim lorem magna labore élite de bœuf salé à longe courte.</p>\n\n<p>Biltong consectetur incididunt bresaola leberkas t-bone. Ball Tip Ut Chislic Corned Beef Porc Picanha Kevin Kielbasa. Excepteur t-bone fugiat prosciutto cupidatat proident velit tri-tip côtes courtes burgdoggen turducken sunt filet de porc pancetta laboris. Id poitrine de chevreuil ex elit proident, pariatur poulet filet mignon en strip steak.</p>",
+          "subtitle": "À PROPOS DE LA CONFIGURATION DU MODULE IW DE LA SPA",
+          "title": "À PROPOS"
+        },
+        "distance": {
+          "buttonLbl": "Calculer",
+          "error": "Nous n'avons pas trouvé d'aéroports correspondants.",
+          "inputFromLbl": "De l'aéroport",
+          "inputToLbl": "À l'aéroport",
+          "invalid": "Vous devez entrer un code d'aéroport valide (3 lettres).",
+          "resultText": "La distance entre {from} et {to} est de <span class=\"bold\">{distance} km. </span>",
+          "results": "Résultats",
+          "title": "DISTANCE DES AÉROPORTS"
+        },
+        "home": {
+          "greeting": "<b>Bienvenue</b><br />à la démo de GeoLoc!"
+        },
+        "info": {
+          "buttonLbl": "Obtenir les infos",
+          "error": "Nous n'avons pas trouvé cet aéroport.",
+          "inputLbl": "Code d'aéroport",
+          "invalid": "Vous devez entrer un code d'aéroport valide (3 lettres).",
+          "results": "Résultats",
+          "title": "Info aéroport"
+        },
+        "list": {
+          "buttonLbl": "Obtenir la liste",
+          "error": "Nous n'avons pas trouvé d'aéroport pour votre recherche.",
+          "found": "{nbFound} aéroport(s) trouvé(s)",
+          "inputCountryLbl": "Pays",
+          "inputHasACServiceLbl": "Desservi par AC",
+          "inputHasACVServiceLbl": "Desservi par VAC",
+          "results": "Résultats",
+          "timeout": "La demande a expiré. Veuillez affiner votre recherche et réessayer.",
+          "title": "LISTE D'AÉROPORTS"
+        },
+        "login": {
+          "error": "État ou code manquant. Je ne sais pas ce que vous avez mal fait, mais vous êtes coincé ici avec moi!",
+          "invalid": "État non valide. Va-t'en!",
+          "title": "Connexion en cours..."
+        },
+        "logout": {
+          "title": "Déconnexion en cours..."
+        },
+        "nearest": {
+          "buttonLbl": "Aéroport le plus proche",
+          "error": "Nous n'avons pas trouvé d'aéroport correspondant.",
+          "inputCountryLbl": "Pays",
+          "inputHasACServiceLbl": "Desservi par AC",
+          "inputHasACVServiceLbl": "Desservi par VAC",
+          "inputLatLbl": "Latitude",
+          "inputLongLbl": "Longitude",
+          "invalid": "Les longitude et latitude sont requises.",
+          "results": "Résultats",
+          "title": "AÉROPORT LE PLUS PROCHE"
+        },
+        "secure": {
+          "title": "INFORMATIONS UTILISATEUR"
+        }
       }
     },
     "en": {
       "i18nError": "<span class='i18nError'>Translation key not found: {key} - {locale}</span>",
-      "title": "Title",
-      "description": "English description",
-      "roger": "English Roger",
       "nav": {
-        "lang" : {
-          "title" : "Changer en français",
-          "alt" : "Français"
-        },
-        "home": {
-          "title": "Home",
-          "greeting": "<b>Welcome</b><br />to the Geoloc demo!"
-        },
         "about": {
           "title": "About"
-        },
-        "info": {
-          "title": "Airport info"
         },
         "distance": {
           "title": "Airport distance"
         },
-        "nearest": {
-          "title": "Nearest airport"
+        "home": {
+          "title": "Home"
+        },
+        "info": {
+          "title": "Airport info"
+        },
+        "lang": {
+          "alt": "Français",
+          "title": "Changer en français"
         },
         "list": {
           "title": "Airports list"
+        },
+        "nearest": {
+          "title": "Nearest airport"
         },
         "secure": {
           "title": "Secured area"
@@ -105,6 +158,68 @@
         "user": {
           "greeting": "Welcome {username}&nbsp;!",
           "logout": "(Sign out)"
+        }
+      },
+      "pages": {
+        "about": {
+          "mainContent": "<p>Spicy jalapeno bacon ipsum dolor amet ribeye est lorem, pariatur veniam pork culpa tri-tip magna. Velit dolor kielbasa est chuck. Strip steak turkey sunt tongue bacon ullamco in ribeye enim lorem magna labore short loin corned beef elit.</p>\n\n<p>Biltong consectetur incididunt bresaola leberkas t-bone. Ball tip ut chislic corned beef pork picanha kevin kielbasa. Excepteur t-bone fugiat prosciutto cupidatat proident velit tri-tip short ribs burgdoggen turducken sunt tenderloin pancetta laboris. Id venison brisket ex elit proident, pariatur chicken filet mignon in strip steak.</p>",
+          "subtitle": "ABOUT THE SPA'S IW MODULE CONFIGURATION",
+          "title": "ABOUT"
+        },
+        "distance": {
+          "buttonLbl": "Calculate",
+          "error": "We could not find matching airports.",
+          "inputFromLbl": "From Airport",
+          "inputToLbl": "To Airport",
+          "invalid": "You have to enter a valid airport code (3 letters).",
+          "resultText": "The distance between {from} and {to} is <span class=\"bold\">{distance} km. </span>",
+          "results": "Results",
+          "title": "CALCULATE AIRPORTS DISTANCE"
+        },
+        "home": {
+          "greeting": "<b>Welcome</b><br />to the Geoloc demo!"
+        },
+        "info": {
+          "buttonLbl": "Get airport info",
+          "error": "We could not find this airport.",
+          "inputLbl": "Airport code",
+          "invalid": "You have to enter a valid airport code (3 letters).",
+          "results": "Results",
+          "title": "Airport info"
+        },
+        "list": {
+          "buttonLbl": "Get Airports List",
+          "error": "We could not find a matching airport for your search.",
+          "found": "{nbFound} airport(s) found",
+          "inputCountryLbl": "Country",
+          "inputHasACServiceLbl": "Serviced By AC",
+          "inputHasACVServiceLbl": "Serviced By ACV",
+          "results": "Results",
+          "timeout": "The request timed out. Please refine your search and try again.",
+          "title": "AIRPORT LISTS"
+        },
+        "login": {
+          "error": "Missing state or code. Not sure what you did wrong but you are stuck here with me!",
+          "invalid": "Invalid state. Go away!",
+          "title": "Login in progress..."
+        },
+        "logout": {
+          "title": "Logout in progress..."
+        },
+        "nearest": {
+          "buttonLbl": "Get Nearest Airport",
+          "error": "We could not find matching airport.",
+          "inputCountryLbl": "Country",
+          "inputHasACServiceLbl": "Serviced By AC",
+          "inputHasACVServiceLbl": "Serviced By ACV",
+          "inputLatLbl": "Latitude",
+          "inputLongLbl": "Longitude",
+          "invalid": "Longitude and latitude are required.",
+          "results": "Results",
+          "title": "CALCULATE NEAREST AIRPORT"
+        },
+        "secure": {
+          "title": "USER INFORMATION"
         }
       }
     }
