@@ -98,6 +98,10 @@
           "inputCountryLbl": "Pays",
           "inputHasACServiceLbl": "Desservi par AC",
           "inputHasACVServiceLbl": "Desservi par VAC",
+          "options": {
+            "false": "Non",
+            "true": "Oui"
+          },
           "results": "Résultats",
           "timeout": "La demande a expiré. Veuillez affiner votre recherche et réessayer.",
           "title": "LISTE D'AÉROPORTS"
@@ -119,6 +123,10 @@
           "inputLatLbl": "Latitude",
           "inputLongLbl": "Longitude",
           "invalid": "Les longitude et latitude sont requises.",
+          "options": {
+            "false": "Non",
+            "true": "Oui"
+          },
           "results": "Résultats",
           "title": "AÉROPORT LE PLUS PROCHE"
         },
@@ -194,6 +202,10 @@
           "inputCountryLbl": "Country",
           "inputHasACServiceLbl": "Serviced By AC",
           "inputHasACVServiceLbl": "Serviced By ACV",
+          "options": {
+            "false": "False",
+            "true": "True"
+          },
           "results": "Results",
           "timeout": "The request timed out. Please refine your search and try again.",
           "title": "AIRPORT LISTS"
@@ -215,6 +227,10 @@
           "inputLatLbl": "Latitude",
           "inputLongLbl": "Longitude",
           "invalid": "Longitude and latitude are required.",
+          "options": {
+            "false": "False",
+            "true": "True"
+          },
           "results": "Results",
           "title": "CALCULATE NEAREST AIRPORT"
         },
@@ -223,5 +239,4 @@
         }
       }
     }
-  }
 }
