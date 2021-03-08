@@ -1,4 +1,5 @@
 {
+  "isValid" : "false",
   "events": [{
       "id": 123,
       "category": "animal BS",
