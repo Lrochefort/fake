@@ -1,5 +1,12 @@
 {
-  "isValid" : ["true"],
+  "valid200" : {
+    "isValid": true,
+    "points": 1040
+  },
+  "invalid200" : {
+    "isValid": false,
+    "points": null
+  },
   "events": [{
       "id": 123,
       "category": "animal BS",
